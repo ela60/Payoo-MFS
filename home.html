@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payoo Home page</title>
+    <!-- daisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="flex justify-center  p-4">
+        <div class="mockup-phone ">
+            <div class="camera"></div>
+            <div class="display">
+              <div class="artboard artboard-demo phone-1">
+                <!-- available balace -->
+                 <div>
+                    <div class="stats shadow mt-12">
+                        <div class="stat">
+                          <div class="stat-value">89,400</div>
+                          <div class="stat-desc ">Available balance</div>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="divider"></div>
+                 <!-- user action button -->
+                  <div class="flex justify-between px-2 gap-2 mr-6">
+                    <button class="btn btn-warning btn-secondary">Add money</button>
+                    <button class="btn btn-warning btn-secondary">Cash Out</button>
+                    <button class="btn btn-warning btn-secondary mr-7">Money <br> Transfer</button>
+                    <!-- second button row -->
+                  </div>
+                  <div class="flex justify-between px-4 py-3 gap-2 mr-6">
+                    <button class="btn btn-info btn-secondary">Get Bonus</button>
+                    <button class="btn btn-info btn-secondary">Pay Bill</button>
+                    <button class="btn btn-info btn-secondary mr-7">Transaction</button>
+
+                  </div>
+                  <div class="divider"></div>
+                  <!-- add money form start-->
+                  <form class="card-body -mt-12 ">
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Amount</span>
+                      </label>
+                      <input id="phone-number" type="text" placeholder="Enter your Amount" class="input input-bordered" required />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Pin</span>
+                      </label>
+                      <input id="pin-number" type="password" placeholder=" Your pin" class="input input-bordered" autocomplete="off" required />
+                      
+                    </div>
+                    <div class="form-control mt-6">
+                      <button id="button-login" class="btn btn-primary">Add Money</button>
+                    </div>
+                  </form>
+
+                  <!-- add money form end -->
+
+                  
+              </div>
+            </div>
+          </div>
+    </main>
+    <script src="./js/home.js"></script>
+</body>
+</html>
