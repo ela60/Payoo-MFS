@@ -18,7 +18,7 @@
                  <div>
                     <div class="stats shadow mt-12">
                         <div class="stat">
-                          <div class="stat-value">89,400</div>
+                          <div id="account-balance" class="stat-value">1000</div>
                           <div class="stat-desc ">Available balance</div>
                         </div>
                       </div>
@@ -39,26 +39,47 @@
                   </div>
                   <div class="divider"></div>
                   <!-- add money form start-->
-                  <form class="card-body -mt-12 ">
+                  <form class="hidden card-body -mt-12 ">
                     <div class="form-control">
                       <label class="label">
                         <span class="label-text">Amount</span>
                       </label>
-                      <input id="phone-number" type="text" placeholder="Enter your Amount" class="input input-bordered" required />
+                      <input id="input-add-money" type="text" placeholder="Enter your Amount" class="input input-bordered" required />
                     </div>
                     <div class="form-control">
                       <label class="label">
                         <span class="label-text">Pin</span>
                       </label>
-                      <input id="pin-number" type="password" placeholder=" Your pin" class="input input-bordered" autocomplete="off" required />
+                      <input id="input-pin-number" type="password" placeholder="type pin number" class="input input-bordered" autocomplete="off" required />
                       
                     </div>
                     <div class="form-control mt-6">
-                      <button id="button-login" class="btn btn-primary">Add Money</button>
+                      <button id="btn-add-money" class="btn btn-primary">Add Money</button>
                     </div>
                   </form>
 
                   <!-- add money form end -->
+
+                  <!-- cash out start -->
+                  <form class="card-body -mt-12 ">
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Amount</span>
+                      </label>
+                      <input id="input-add-money" type="text" placeholder="Enter your Amount" class="input input-bordered" required />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Pin</span>
+                      </label>
+                      <input id="input-cvash-out-pin" type="password" placeholder="type pin number" class="input input-bordered" autocomplete="off" required />
+                      
+                    </div>
+                    <div class="form-control mt-6">
+                      <button id="btn-cash-out" class="btn btn-primary">Cash Out</button>
+                    </div>
+                  </form>
+                   <!-- cash out end -->
 
                   
               </div>
