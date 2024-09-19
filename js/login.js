@@ -11,7 +11,7 @@ document.getElementById('button-login').addEventListener('click', function (even
     console.log(phoneNumber, pinNumber);
     
     // step-4:validate phone  and pin
-    if (phoneNumber === '84' && pinNumber === '123') {
+    if (phoneNumber === '84' && pinNumber === '4444') {
         console.log('you are logged in');
         window.location.href='../home.html'
     }

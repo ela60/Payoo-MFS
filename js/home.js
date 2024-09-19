@@ -33,6 +33,6 @@ document.getElementById('btn-add-money').addEventListener('click', function (eve
         document.getElementById('account-balance').innerText = newBalance;
     }
     else {
-        console.log('Failed to account! Please try account');
+        alert('Failed to account! Please try account');
     }
 });
